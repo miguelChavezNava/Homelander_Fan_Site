@@ -1,0 +1,130 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong
+{
+    font-family: "Anton SC", sans-serif;
+}
+
+h1 {font-size: 56px;}
+h2 {font-size: 36px;}
+h3 {font-size: 28px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 16px;}
+
+.main-container
+{
+    background-image: url(americanFlag.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-wrapper
+{
+    color: red;
+    display: grid;
+    text-align: center;
+    align-content: center;
+}
+
+.intro-wrapper
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side
+{
+    background-color: red;
+    width: 28%;
+    padding-top: 20px;
+}
+
+#main-pic
+{
+    border: 1px solid black;
+    display: block;
+    margin:0 auto;
+    width: 75%;
+}
+
+.right-side
+{
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 28%;
+    padding: 20px 0px;
+}
+
+.content
+{
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 85%;
+    padding: 15px;
+}
+
+p
+{
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
+.video
+{
+    height: 100%;
+    width: 100%;
+}
+
+.gallery
+{
+    display: inline-block;
+    border: 1px solid black;
+    margin-bottom: 35px;
+    margin-inline: 35px;
+    width: 300px;
+}
+
+.gallery:hover
+{
+    border: 1px solid white;
+}
+
+.gallery img
+{
+    width: 100%;
+    height: auto;
+}
+
+.description
+{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+}
